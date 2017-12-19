@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+dump.rdb
+staticfiles/
+static/
+
 # Distribution / packaging
 .Python
 env/
