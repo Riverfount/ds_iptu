@@ -118,7 +118,7 @@ CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TIMEZONE = 'America/Sao_Paulo'
 
-# MemCache with Redis
+# Cache with Redis
 CACHES = {
     'default': {
         'BACKEND': 'django_redis.cache.RedisCache',
