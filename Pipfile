@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-decouple = "*"
+pytz = "*"
+amqp = "*"
+billiard = "*"
+celery = "*"
+kombu = "*"
+vine = "*"
+redis = "*"
+django-extensions = "*"
+six = "*"
+typing = "*"
+unicodecsv = "*"
+numpy = "*"
+pandas = "*"
+python-dateutil = "*"
+dj-database-url = "*"
+"psycopg2" = "*"
+django-redis = "*"
+django-money = "*"
+py-moneyed = "*"
+Django = "*"
+
+[dev-packages]
+"flake8" = "*"
+mccabe = "*"
+pycodestyle = "*"
+pyflakes = "*"
+
+[requires]
+python_version = "3.7"
